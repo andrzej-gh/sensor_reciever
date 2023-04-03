@@ -180,9 +180,6 @@ int main(int argc, char *argv[])
       }
    }
 
-   s = 1;
-   sensorId = 1;
-
    if (c == 1 && s == 1) {
       printf("ERROR: Please run program with only one flag\n");
       exit(1);
